@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.pnzr.voicemail_onboard"
+      android:versionCode="1"
+      android:versionName="1.0">
+    
+    <uses-sdk android:minSdkVersion="4"/>
+
+	<application android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name="voicemail_onboard_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".voicemail_onboard_receiver" android:enabled="true">
+                <intent-filter>
+                        <action android:name="android.intent.action.PHONE_STATE" />
+                </intent-filter>
+        </receiver>
+        <service android:name="voicemail_onboard_intent"/>
+    	<activity android:name="voicemail_onboard_pref_activity" android:enabled="true"></activity>
+	</application>
+	
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+<uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>
+<uses-permission android:name="android.permission.MODIFY_PHONE_STATE"></uses-permission>
+
+
+<uses-permission android:name="android.permission.CALL_PRIVILEGED"></uses-permission>
+
+<uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+
+</manifest> 
