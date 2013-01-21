@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/PrefLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">	
+	<CheckBox android:layout_y="10dip" android:layout_x="10dip" android:text="Service Enabled" android:id="@+id/cbxEnabled" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+	<!-- TextView android:layout_y="60dip" android:layout_x="10dip" android:text="Greeting Message" android:id="@+id/lblGreet" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView-->
+	<!-- EditText android:layout_y="80dip" android:layout_x="10dip" android:text="" android:id="@+id/txtGreet" android:layout_width="300dip" android:layout_height="wrap_content" android:editable="FALSE"></EditText-->
+	
+	<TextView android:layout_y="130dip" android:layout_x="10dip" android:text="Rings before answer" android:id="@+id/lblRings" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<Spinner  android:layout_y="150dip" android:layout_x="10dip" android:id="@+id/spnRings" android:layout_width="300dip" android:layout_height="wrap_content"></Spinner>
+	
+	<TextView android:layout_y="200dip" android:layout_x="10dip" android:text="Voicemail Length" android:id="@+id/lblVmLength" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<Spinner  android:layout_y="220dip" android:layout_x="10dip" android:id="@+id/spnVmLength" android:layout_width="300dip" android:layout_height="wrap_content"></Spinner>
+	
+	<Button android:layout_y="270dip" android:layout_x="60dip" android:text="Save" android:id="@+id/btnSave" android:layout_width="100dip" android:layout_height="wrap_content"></Button>
+	<Button android:layout_y="270dip" android:layout_x="160dip" android:text="Cancel" android:id="@+id/btnCancel" android:layout_width="100dip" android:layout_height="wrap_content"></Button>
+</AbsoluteLayout>

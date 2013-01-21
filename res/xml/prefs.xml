@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:title="Service Enabled" android:key="enabled"></CheckBoxPreference>
+	<ListPreference android:entryValues="@array/ringList" android:entries="@array/ringListName" android:key="rings" android:title="Answer After"></ListPreference>
+	<ListPreference android:entryValues="@array/lengthList" android:entries="@array/lengthListName" android:key="vmLength" android:title="Voicemail Time"></ListPreference>
+	<!-- RingtonePreference android:title="Greeting" android:key="greeting" android:showDefault="true" android:ringtoneType="all" android:showSilent="false"></RingtonePreference-->
+</PreferenceScreen>

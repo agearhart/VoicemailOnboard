@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoicemailOnboard</string>
+    <string name="no_mail">No Voicemails Onboard</string>
+    <string name="pref">Edit Preferences</string>
+    
+    <string-array name="ringListName">
+        <item>Immediate</item>
+        <item>1 ring</item>
+        <item>2 rings</item>
+        <item>3 rings</item>
+        <item>4 rings</item>
+        <item>5 rings</item>
+    </string-array>
+    <string-array name="ringList">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+    <string-array name="lengthListName">
+    	<item>10 seconds</item>
+    	<item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>40 seconds</item>
+        <item>50 seconds</item>
+        <item>60 seconds</item>
+    </string-array>
+    <string-array name="lengthList">
+    	<item>10</item>
+    	<item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="contextMenu">
+    	<item>Play</item>
+    	<item>Delete</item>
+    </string-array>
+</resources>
